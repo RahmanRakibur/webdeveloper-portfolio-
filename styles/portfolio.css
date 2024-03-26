@@ -1,0 +1,52 @@
+/* common shared styles */
+body {
+  font-family: "Biryani", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.nav-title {
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 61px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.text-primary {
+  /* nav related styles */
+  color: rgba(255, 99, 71, 0.96);
+}
+
+.btn-primary {
+  border-radius: 40px;
+  background-color: tomato;
+  /* dekho charo side e kmn jno green ekta halka circle porse eitake dur korbar jonno bordar use korchi */
+  border: 0;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  padding: 15px 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav>ul {
+  display: flex;
+  /* display fles dile ul tag gulo row theke pasa pasi bosbe then amra ul er samner dot gulo ke jno samne na thake tai eibar nav and li   {nav >li hobe na karon ul er vitor child ache ei jonno nav er vitor joto gulo sytle ache sei gulo te amra list-style   none kore dibo then margin then ja ja iccha hoy  */
+  justify-content: center;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(128, 128, 128, 0.896);
+}
