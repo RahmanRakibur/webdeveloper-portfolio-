@@ -21,7 +21,7 @@ body {
 .btn-primary {
   border-radius: 40px;
   background-color: tomato;
-  /* dekho charo side e kmn jno green ekta halka circle porse eitake dur korbar jonno bordar use korchi */
+  /* dekho charo side e kmn jno green ekta halka circle porse eitake dur korbar jonno border use korchi */
   border: 0;
   font-size: 20px;
   color: white;
@@ -40,7 +40,7 @@ nav {
 
 nav>ul {
   display: flex;
-  /* display fles dile ul tag gulo row theke pasa pasi bosbe then amra ul er samner dot gulo ke jno samne na thake tai eibar nav and li   {nav >li hobe na karon ul er vitor child ache ei jonno nav er vitor joto gulo sytle ache sei gulo te amra list-style   none kore dibo then margin then ja ja iccha hoy  */
+  /* display flex dile ul tag gulo row theke pasa pasi bosbe then amra ul er samner dot gulo ke jno samne na thake tai eibar nav and li   {nav >li hobe na karon ul er vitor child ache ei jonno nav er vitor joto gulo sytle ache sei gulo te amra list-style   none kore dibo then margin then ja ja iccha hoy  */
   justify-content: center;
   align-items: center;
 }
@@ -81,7 +81,7 @@ nav a {
   font-size: 65px;
   font-weight: 700;
   margin-top: 5px;
-  /* hi and rakib ei dui tar majhe gap komanor jonno amra dui tar class er jei kono ektay margin0px and onno tay khub sammno ekta like 5px dile tader majhe gap onnkkkk kome asbe */
+  /* hi and rakib ei dui tar majhe gap Komanor jonno amra dui tar class er jei kono ektay margin 0px and onno tay khub sammno ekta like 5px dile tader majhe gap onnkkkk kome asbe */
   margin-bottom: 10px;
 }
 
@@ -98,14 +98,21 @@ nav a {
 }
 
 /* main section styles */
+main section {
+  max-width: 840px;
+  margin: 0 auto;
+}
+
 .section-title {
   color: #181818;
   text-align: center;
   font-size: 35px;
   font-weight: 700;
+
 }
 
 .section-description {
+
   color: #757575;
   text-align: center;
   font-size: 18px;
@@ -114,8 +121,50 @@ nav a {
 .about {
   padding: 120px;
   border-radius: 10px;
-  background-color: #FFF8F3;
+  background-color: #fff3f3;
   margin: 130px 0px;
 }
 
-/* about section styles */
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info {
+  text-align: center;
+}
+
+/* skils related styles */
+#what-i-do-description {
+  padding: 30px 150px;
+}
+
+
+
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+}
+
+.skill-description {
+  color: #757575;
+}
+
+/* resume section styles */
+.resume-column-title {
+  color: rgb(71, 71, 71);
+  /* font family by default upor theke asbe */
+  font-size: 25px;
+  font-weight: 700;
+
+  letter-spacing: 0%;
+
+}
