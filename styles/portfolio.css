@@ -98,8 +98,8 @@ nav a {
 }
 
 /* main section styles */
-main section {
-  max-width: 840px;
+main {
+  max-width: 740px;
   margin: 0 auto;
 }
 
@@ -108,7 +108,10 @@ main section {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
+}
 
+main section {
+  margin-top: 130px;
 }
 
 .section-description {
@@ -139,17 +142,16 @@ main section {
   padding: 30px 150px;
 }
 
-
-
 .skills-container {
   display: flex;
   gap: 24px;
 }
 
 .skill {
-  padding: 30px;
+  padding: 25px;
+  padding-bottom: 2px;
   border-radius: 5px;
-
+  gap: 24px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
   background: rgb(255, 255, 255);
 }
@@ -158,13 +160,9 @@ main section {
   color: #757575;
 }
 
-/* resume section styles */
+/* resume-section-styles */
 .resume-column-title {
-  color: rgb(71, 71, 71);
-  /* font family by default upor theke asbe */
-  font-size: 25px;
+  color: #474747;
+  font-size: 30px;
   font-weight: 700;
-
-  letter-spacing: 0%;
-
 }
