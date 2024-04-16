@@ -201,7 +201,40 @@ main section {
 /* footer-style */
 footer {
   display: flex;
-  background-color: thistle;
+  background-color: #fff3f3;
   padding: 130px 200px;
   margin-top: 100px;
+  gap: 100px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+.icons a {
+  margin-right: 20px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+/* typer er vitor er gulo te ei style tag gulo kaj korbe baki der tay ei style kaj korbe na */
+/* .contact input[type="submit"] eita dile dekho ki ase hahahahaaa, */
+textarea
+
+/* contact er vitor er joto gulo input ache sei gulo te amra style korchi */
+  {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background: papayawhip;
+  border: 0;
+  /* border diyeche mainly charo side diye jno black row ta na ase */
+  width: 100%;
+  /* ei width dewar por button taw 100% hoye giyeche jei ta amader dorkar nai tai amra input type er vitor e jei gulo te amra chaibo sei gulo just bosabo baki gulo type e na likhle sei ta r kaj korbe na  */
+}
+
+.contact input {
+  /* ei Khane width 100% dile sob submit button o 100% pabe tai amra upor er tai dilam r type ta change kore nijeder moto customize korlam */
 }
